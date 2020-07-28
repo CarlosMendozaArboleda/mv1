@@ -1,0 +1,29 @@
+#header {
+     position: fixed;
+     top: 0;
+     min-height: 75px;
+     padding: 0px 20px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: #eee;
+   }
+   nav {
+     position: fixed;
+     top: 0;
+   }
+
+   .nav-link {
+     align-content:flex-end;
+     background-color: black;
+     color: #149ea8;
+     display: flex;
+     flex-grow: 1;
+     justify-content: space-between;
+     padding: 1rem;
+     text-align: center;
+     text-decoration: none;
+     position: relative;
+   }
+
+
